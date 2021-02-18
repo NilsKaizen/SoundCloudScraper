@@ -11,7 +11,7 @@ artist_url = "https://soundcloud.com/search/people?q="
 mix_url_end = "&filter.duration=epic"  # Look for songs that are 30 min or longer
 
 # create the selenium browser
-browser = webdriver.Chrome("C:/Users/nils0/PycharmProjects/chromedriver")
+browser = webdriver.Chrome("YOUR_PATH_TO_CHROMEDRIVER")
 browser.get("https://soundcloud.com")
 
 # main menu
